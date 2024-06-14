@@ -1,0 +1,178 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(220, 220, 220) !important;
+}
+
+.baslik {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #b3f0ff;
+    gap: 50px;
+    padding: 25px;
+}
+
+.baslik>img {
+    width: 100px;
+}
+
+.giris-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    margin-left: 25px;
+}
+
+.giris-form>div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 275px;
+}
+
+.giris-form>div>input {
+    padding: 5px 5px;
+}
+
+.giris-form input[type=submit] {
+    position: absolute;
+    bottom: 0;
+    left: 325px;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 5px 30px;
+    color: #00ccff;
+}
+
+/* PHP */
+
+.panel {
+    background-color: #00ccff;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.panel>button {
+    font-weight: bold;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+.panel>button:hover {
+    background: #b3f0ff;
+}
+
+.panel>button:active {
+    background-color: gray;
+}
+
+/* Yeni Kayıt */
+.yeniKayitInput {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.yeniKayitInput input,
+.yeniKayitInput select {
+    width: 60%;
+}
+
+.yeniKayitInput textarea {
+    width: 250px;
+    height: 90px;
+    resize: none;
+}
+
+.juri-container {
+    width: 100%;
+    display: flex;
+    gap: 50px;
+
+}
+
+.juri-container>* {
+    flex: 1;
+}
+
+/* PANEL */
+
+.panel .nav-link.active {
+    background-color: white !important;
+    /* Aktif tuşun arka plan rengi */
+    color: black !important;
+    /* Aktif tuşun yazı rengi */
+}
+
+.panel .nav-link {
+    font-weight: bolder !important;
+    /* Navbar düğmelerinin yazı kalınlığı */
+    font-size: large !important;
+    /* Navbar düğmelerinin yazı boyutu */
+    color: white !important;
+    /* Aktif olmayan tuşların yazı rengi */
+}
+
+.fade:not(.show) {
+    display: none;
+}
+
+/* İÇERİK */
+.form {
+    width: 800px;
+    background-color: white;
+    border-radius: 12.5px;
+}
+
+.form form {
+    padding: 25px;
+}
+
+.not-girisi-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 0;
+}
+
+.form #nav-tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form .nav-link {
+    width: 130px;
+}
+
+.projeler-container>table {
+    width: 80%;
+    margin-inline: auto;
+    margin-top: 25px;
+}
+
+.projeler-container>table tbody tr {
+    cursor: pointer;
+}
+
+.table {
+    --bs-table-hover-bg: rgb(101, 193, 255) !important;
+}
+
+.small-input {
+    width: 50px !important;
+}
